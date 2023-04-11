@@ -1,0 +1,44 @@
+body {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.info-list {
+  list-style: none;
+  padding: 0;
+
+}
+.info-list li {
+  margin-bottom: 1rem;
+}
+.performance-level {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+/* For modern browsers */
+::selection {
+  background-color: #ffcccb;
+  color: #000;
+}
+
+/* For Firefox */
+::-moz-selection {
+  background-color: #ffcccb;
+  color: #000;
+}
+
+/* For WebKit-based browsers */
+::-webkit-selection {
+  background-color: #ffcccb;
+  color: #000;
+}
